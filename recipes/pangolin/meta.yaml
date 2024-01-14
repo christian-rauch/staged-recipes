@@ -1,15 +1,13 @@
 {% set name = "pangolin" %}
-{% set version = "0.8" %}
+{% set version = "0.9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  # url: https://github.com/stevenlovegrove/Pangolin/archive/refs/tags/v{{ version }}.tar.gz
-  # sha256: a680d1b52cd432f93f3359cb8f2179b25acf384d29dbaa2530b2eb3dfe5a81c6
-  url: https://github.com/christian-rauch/Pangolin/archive/refs/tags/x.1.tar.gz
-  sha256: a01d2ba1111b1c31125affd528e81eca97a22365790890feda152bb98d70c4d2
+  url: https://github.com/stevenlovegrove/Pangolin/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: d3ce8637995b06d5b63238624a3a6b04214a0e96b07bc8e1e8249aa24e52e27b
 
 build:
   script: |
